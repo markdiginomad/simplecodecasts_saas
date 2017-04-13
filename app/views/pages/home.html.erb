@@ -11,7 +11,8 @@
              <%= link_to "edit your profile", "#", class: 'btn btn-success bnt-lg btn-block'%>
              <%= link_to "view your profile", user_path(current_user), class: 'btn btn-success bnt-lg btn-block' %> 
            <% else %>
-            <%= link_to "create your profile", new_user_profile_path(current_user), class: 'btn btn-success bnt-lg btn-block' if current_user %>
+           <p>Create your profile so that you can share your infomation with the community</p>
+            <%= link_to "create your profile", new_user_profile_path(current_user), class: 'btn btn-success bnt-lg btn-block' %>
          <% end %>
      </div>
     </div> 
