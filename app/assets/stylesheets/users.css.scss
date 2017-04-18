@@ -1,3 +1,9 @@
+/* users show page styles */
+.user-show-avatar {
+    height: 200px;
+    width: 200px;
+}
+
 .job-title-icon {
     display: inline-block;
     width: 30px;
@@ -30,7 +36,11 @@
     border-color: #2e6da4;
 }
 
-img {
-    border-radius: 80px ;
-    margin-top: 120px;
+/* users index styles */
+.user-index-avatar {
+    border-radius: 50%;
+}
+ 
+.well.grey-bg {
+    background-color: grey;
 }
